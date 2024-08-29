@@ -1,0 +1,62 @@
+
+/* Add comment with  ctrl-/   (ctrl-shift-7) */
+
+
+/* call classes with . */
+.blue {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 100%;
+    background-color:burlywood;
+    padding: 1%;
+    margin: 5px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+}
+
+#first_name, #last_name {
+    color: black;
+}
+
+.input_field {
+    padding: 3px;
+}
+
+.newsletter_form {
+    text-align: center;
+    border-style: solid;
+    border-color: darkgray;
+    margin-right: 60%;
+    }
+
+.biography {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 100%;
+    background-color:rgb(201, 188, 171);
+    padding: 1%;
+    margin: 5px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+/* call id with # */
+#test {
+    color: aqua;;
+    text-align: center;
+    
+
+}
+body {
+    background-color: bisque;
+
+}
