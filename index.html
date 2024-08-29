@@ -11,7 +11,7 @@
 
     
     <p style="text-align: center;"> 
-        <img src="kermit.jpg" alt="No picture available :(" width="300">
+        <img id="profile_pic" src="kermit.jpg" alt="No picture available :(" width="300">
     </p>
     <h3 style="text-align: center">My life in a nutshell</h3>
     <p class="biography">So let me tell you a bit about myself. I grew up on a farm where we produced princes. <br>
@@ -53,14 +53,26 @@
         
     </form>
 
-    <!-- <button onclick="document.getElementById('myImage').src='kermit.jpg'">Turn on the light</button>
 
-    <img id="myImage" src="kermit_mirror.jpg"width:100px">
+    <!-- The Crazy button mirrors the profile picture  on clicking -->
+    <button onclick="FirstImage()"> Crazy Button</button>
 
-    <button onclick="document.getElementById('myImage').src='kermit_mirror.jpg">Turn off the light</button>
- -->
+   <script>
+    var myImage=document.querySelector("#profile_pic")
+    var switch_1 = 0
 
+    function FirstImage() {
 
-   
+        if (switch_1 === 0) {
+            myImage.src="kermit_mirror.jpg"
+            switch_1 = 1
+        }
+        else {
+            myImage.src="kermit.jpg"
+            switch_1 = 0
+        }
+    }
+   </script>
+
 </body>
 </html>
