@@ -11,28 +11,28 @@
 <body>
     <h1 style="text-align: center;">Hello, my name is Kermit!</h1>
 
-    
+    <!-- Picture of me  -->
     <p style="text-align: center;"> 
         <img id="profile_pic" src="kermit.jpg" alt="No picture available :(" width="300">
     </p>
+
+    <!-- Biography -->
     <h3 style="text-align: center;">My life in a nutshell</h3>
     <p class="biography">So let me tell you a bit about myself. I grew up on a farm where we produced princes. <br>
         I have a special bond with my cousin Oscar, who is a famous inventor. He has given me the idea to create a new type of Tee called Teespresso.
         I have also trained my friends, like Tigger, to make Teespresso. And now, I am here to share my experiences and knowledge about experienced brewing techniques with you! <br>
-        You can sign up for my Newsletter and i will share upcoming events like brewing courses (only 149 <span>&#8383;</span>). 
+        You can sign up for my Newsletter and i will inform you about upcoming events like brewing courses  (only 149 <span>&#8383;</span>). Also make sure to visit the Frogskin-Store where we have an autumn sale! 
      </p>
+
+     <!-- Contact information -->
      <p>How to contact me:</a></p>
      <ul>
-        <li> <a href="mailto:ke@ker.com"> <span>&#9993;</span>  : frogboy69@sesamestreet.com</a></li>
+        <li> <a href="mailto:frogboy69@sesamestreet.com"> <span>&#9993;</span>  : frogboy69@sesamestreet.com</a></li>
         <li><a href="tel:+01413413413"> <span> &#9742;
         </span>  : +01413413413</a></li>
      </ul>
-    <!-- <p class="green"> Espresso </p>
-    <p class="blue"> Cappucchino </p>
-    <p class="blue"> Macciato </p>
-    <p class="blue"> Milk </p>
-    <p id="test""> ide_test </p> -->
-    
+
+    <!-- Newsletter form -->
     <form class="newsletter_form">
         <h3>If you want to sign up for my  Newsletter:</h3> 
         
@@ -51,39 +51,23 @@
             <label for="newsletter_confirmation">I have read the terms and agreements <br> 
             Send me free stuff already</label>
         </li>
-
-
         </ul>
-
-        
     </form>
 
 
     <!-- The Crazy button mirrors the profile picture  on clicking -->
-    <button onclick="FirstImage()"> Crazy Button</button>
+    <button onclick="FirstImage()"> Crazy Button</button>    
 
-   <script>
-    var myImage=document.querySelector("#profile_pic")
-    var switch_1 = 0
+    <!-- The Madness button mirrors the profile picture  on clicking ....fast -->
+    <button id ="crazier_button" onclick="Madness()"> Madness Button</button>
 
-    function FirstImage() {
+    <!-- Stop Madness button mirrors the profile picture  on clicking -->
+    <button id ="stop_madness_button" onclick="Stop_Madness()"> Stop this madness </button>
+    <br><br>
+    <!-- Darkmode Button -->
+    <button onclick="Darkmode()" id="button_darkmode"> Toggle darkmode </button>
 
-        if (switch_1 === 0) {
-            myImage.src="kermit_mirror.jpg"
-            switch_1 = 1
-        }
-        else {
-            myImage.src="kermit.jpg"
-            switch_1 = 0
-        }
-    }
-   </script>
-<script src="script.js"></script>
-
-        <!-- Darkmode Button -->
-         <button onclick="Darkmode()" id="button_darkmode"> Toggle darkmode </button>
-
-
+    <script src="script.js"></script>
 </body>
 </html>
 

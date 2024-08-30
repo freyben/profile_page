@@ -3,6 +3,10 @@
 
 
 /* call classes with . */
+#profile_pic {
+    border-radius: 50%;
+}
+
 .blue {
     color: blue;
     font-family: 'Courier New', Courier, monospace;
@@ -37,16 +41,16 @@
 .biography {
     color: black;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    text-align: justify;
     font-size: 100%;
     background-color:rgb(201, 188, 171);
-    padding: 1%;
-    margin: 5px;
+    padding: 2%;
+    margin: 1%;
     border-color: black;
     border-width: 1px;
     border-style: solid;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
     
 }
 /* call id with # */
@@ -58,11 +62,12 @@
 }
 body {
     background-color: bisque;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
-a:link { color: rgb(202, 96, 34); }
-a:hover { color: rgb(138, 67, 27); }
+a:link { color: rgb(112, 60, 31); }
+a:hover { color: rgb(192, 77, 10); }
 
 .dark-mode a:link { color: lightskyblue; }
 .dark-mode a:visited { color: #6d4b8d; }
