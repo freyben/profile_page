@@ -37,5 +37,5 @@ function Stop_Madness() {
     clearInterval(myInterval);
     }
     else
-        alert("There is no madness right now!")
+        alert("There is no madness right now!!")
 }
